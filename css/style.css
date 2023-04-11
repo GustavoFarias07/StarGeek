@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/Filmes-de-Comedia-Netflix_1.jpg);
+    background-size: cover;
+}
+.fundo{
+    background-image: url(../img/FUNDOFILME.png);
+}
+.div1{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+    justify-content: center;
+    margin: 0 auto  ;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.347);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
+.cadastrar{
+    text-align: end;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+}
+.perfil{
+    display: flex;
+    justify-content: center;
+}
+.perfil > img{
+    height: 200px;
+    width: 210px;
+}
+.pd{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+input{
+    width: 100px; 
+    padding: 20px;
+    margin: 10px;
+    margin-top: -5px;  
+    border-radius: 20px;
+    padding: 20px;  
+    width: 300px;
+}
+.botao{
+    width: 80px;
+    background-color: rgb(255, 255, 255);  
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.botao1{
+    width: 200px;
+    text-decoration: none;  
+    padding: 10px;
+    color: black;  
+    background-color: rgb(255, 255, 255); 
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.381);
+    margin: 20px;
+}   
+.div2{
+    margin: 50px;
+}
+.botao2{
+    width: 100px;
+    text-decoration: none;  
+    padding: 10px;
+    color: black;  
+    background-color: rgb(255, 255, 255); 
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.381);
+    margin: 20px;
+}   
+.icone{
+    width: 14px;
+}
+h1{
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.star{
+    width: 400px;
+    height: 100px;
+    
+}
+hr{
+    color: white;
+}
