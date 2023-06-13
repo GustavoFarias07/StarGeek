@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 
 <body>
@@ -18,20 +19,20 @@
         <div class="perfil">
             <img src="img/sherrek.webp" class="perfil">
         </div>
-        <p class="pd">Username</p>
+        <p class="pd1">Usuario</p>
         <div>
-            <input type="text" class="pd" placeholder="Email Or Phone:">
+            <input type="text" class="pd" id="nome" placeholder="Nome">
         </div>
-        <p class="pd">Password</p>
+        <p class="pd1">Password</p>
         <div>
-            <input type="text" class="pd" placeholder="Password:">
+            <input type="password" class="pd" id="senha" placeholder="senha">
         </div>
-        <p class="pd">Confirmed Password</p>
+        <p class="pd1">Confirmed Password</p>
         <div>
-            <input type="text" class="pd" placeholder="Confirmed Password:">
+            <input type="password" class="pd" id="confSenha" placeholder="Confirme a Senha">
         </div>
         <div>
-            <a href="catalago.html" class="buttons">Entar</a>
+            <a href="#" class="buttons" onclick="BotaoEntrar()">Entrar</a>
         </div>
         <div class="div2">
             <a href="#" class="buttons"><img src="/img/google.svg" class="icone"> Google</a>
@@ -46,5 +47,5 @@
         </div>
     </footer>
 </body>
-
+<script src="/registro.js"></script>
 </html>

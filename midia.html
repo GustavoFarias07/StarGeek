@@ -14,29 +14,39 @@
         <div>
             <h1>cadastro de midia</h1>
         </div>
-        <p class="pd">Name</p>
+        <p class="pd1">Nome</p>
         <div>
-            <input type="text" class="pd" placeholder="Email Or Phone:">
+            <input type="text" class="pd" id="nome" placeholder="Nome do Filme">
         </div>
-        <p class="pd">Resume</p>
+        <p class="pd1">Categoria</p>
+        <select name="" id="Titulo">
+            <option value="Filmes de terror">Terror</option>
+            <option value="Filmes de Comedia">Comedia</option>
+            <option value="Filmes Infantis">Infantis</option>
+        </select>
+        
+        <p class="pd1">Link</p>
         <div>
-            <input type="text" class="pd" placeholder="Resume:">
+            <input type="text" class="pd" id="link" placeholder="Link de Imagen:" onkeyup="Aparecerimg()"></input>
+            <img src="" id="imagem" class="img">
         </div>
-        <p class="pd">Review</p>
+        
         <div>
-            <input type="text" class="pd" placeholder="Review:">
-        </div>
-        <div >
-            <a href="catalago.html" class="buttons">Enviar</a>
+            <a href="#" class="buttons" onclick="cadastrofilme()">Enviar</a>
         </div>
     </div>
-    <footer>
+    <div id="ExibirImg">
+        <h1>Filmes Adicionados</h1>
+    </div>
+    <footer class="foo">
         <div class="icons">
             <p>Stargeek <img src="img/5365678_fb_facebook_facebook logo_icon.svg" ></p>
             <p>@Stargeek <img src="img/3225191_app_instagram_logo_media_popular_icon.svg" ></p>
             <p>+55 (18) 99108-9812 <img src="img/3225179_app_logo_media_popular_social_icon.svg" ></p>
         </div>
     </footer>
-</body>
 
+    
+</body>
+    <script src="midia.js"></script>
 </html>

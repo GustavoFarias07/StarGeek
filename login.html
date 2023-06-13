@@ -11,36 +11,35 @@
 
 <body>
     <header class="cadastro">
-        <a href="registro.html"class="buttons">cadastrar-se</a>
+        <a href="registro.html" class="buttons">cadastrar-se</a>
     </header>
     <div class="div1">
 
         <div class="perfil">
             <img src="img/sherrek.webp" class="perfil">
         </div>
-        <p class="pd">Username</p>
+        <p class="pd1">Username</p>
         <div>
-            <input type="text" class="pd" placeholder="Email Or Phone:">
+            <input type="text" class="pd" id="login" placeholder="Nome">
         </div>
-        <p class="pd">Password</p>
+        <p class="pd1">Password</p>
         <div>
-            <input type="text" class="pd" placeholder="Password:">
+            <input type="password" class="pd" id="senha" placeholder="senha">
         </div>
         <div >
-            <a href="catalago.html" class="buttons">Entrar</a>
+            <a href="#" class="buttons" onclick="botaoEntrar()">Entrar</a>
         </div>
-        <div class="div2">
-            <a href="#" class="buttons"><img src="/img/google.svg" class="icone"> Google</a>
-            <a href="midia.html" class="buttons">Midia</a>
-        </div>
+
     </div>
-    <footer>
+    <footer class="foo">
         <div class="icons">
             <p>Stargeek <img src="img/5365678_fb_facebook_facebook logo_icon.svg" ></p>
             <p>@Stargeek <img src="img/3225191_app_instagram_logo_media_popular_icon.svg" ></p>
             <p>+55 (18) 99108-9812 <img src="img/3225179_app_logo_media_popular_social_icon.svg" ></p>
         </div>
     </footer>
+
+    <script src="login.js"></script>
 </body>
 
 </html>
